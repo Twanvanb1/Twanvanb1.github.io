@@ -1,4 +1,4 @@
-# lavesiime.github.io
+# Twanvanb1.github.io
 ***
 # RSDK XML Guide
 
@@ -8,7 +8,12 @@ This is a small guide on how to use the XML modding API in the Retro Engine V3/V
 
 The basic formatting of an XML file starts with the XML version at the top. For this tutorial, all that's needed is `<?xml version="1.0"?>`. Then, the first "class" starts. For RSDK, the only class used is `game`. In this `game` class, all the other sub-classes are contained inside of it. These sub-classes are what actually do stuff, so let's talk about them, starting with...
 
+## Name
+This was added in decomp version 1.3.2 and will change the name of your game.
 
+```xml
+    <title name="Put your RSDK projects name here"> </title>
+```
 ## Palettes
 
 Although it may be a bit tedious, the XML support also allows for changing the global palette. I say that because, instead of having you input an already packed color for each index, you have to provide the R, G, and B values separately. However, it isn't my place to complain about it, so let's get on to the useful info. The format allows all 256 colors across the 8 palettes to be replaced, the format it follows is

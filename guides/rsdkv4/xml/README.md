@@ -192,6 +192,9 @@ Now, let's take everything we've learned and make one big game.xml file.
 ```xml
 <?xml version="1.0"?>
 <game>
+
+	<title name="RSDK temp name"> </title>
+
 	<palette>
 		<color bank="0" index="0" r="255" g="0" b="255"> </color>
 		<color bank="0" index="1" r="0" g="0" b="0"> </color>
